@@ -1,0 +1,33 @@
+---
+title: ""
+author: "Awa D"
+date: "22/07/2025"
+output: html_document
+site: bookdown::bookdown_site
+documentclass: book
+---
+
+# Pour commencer...
+
+Ce document accompagne l'article en apportant des compléments techniques, méthodologiques et visuels à l'analyse factorielle des coorespondances entre doléances citoyennes et niveau d'instruction au Cameroun, à partir des données Afrobarometer 2024.
+
+
+## Contexte 
+
+- Election présidentielle prévue le 12 novembre 2025
+
+- Revendications prioritaires : emploi, économie, services sociaux (*Afrobarometer*, 2024)
+
+- Un pays où 78,23 % des 15 ans et plus sont alphabétisés (UNESCO, 2020).
+
+## Problématique
+
+- Ces priorités des électeurs varient-elles selon le niveau d’instruction ? 
+
+## Objectif 
+
+- Analyser les revendications prioritaires selon le niveau d'instruction via une Analyse Factorielle des Correspondances (AFC).
+
+## Intéret
+
+- Une lecture qualitative structurée de l’opinion publique, en révélant les proximités entre niveau d’instruction et revendications citoyennes.

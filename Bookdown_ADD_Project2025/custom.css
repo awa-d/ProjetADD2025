@@ -1,0 +1,145 @@
+/* --- PERSONNALISATION BLEU ÉLÉGANT POUR BOOKDOWN --- */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8fafd;
+  color: #1f2d3d;
+  line-height: 1.75;
+  font-size: 1.05em;
+}
+
+/* TITRES */
+h1 {
+  color: #003366;
+  font-size: 2.4em;
+  font-weight: bold;
+  border-bottom: 3px solid #005b96;
+  padding-bottom: 8px;
+  margin-top: 50px;
+}
+
+h2 {
+  color: #005b96;
+  font-size: 2em;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 6px;
+  margin-top: 40px;
+}
+
+h3 {
+  color: #007acc;
+  font-size: 1.6em;
+  margin-top: 30px;
+}
+
+h4 {
+  color: #3399cc;
+  font-size: 1.3em;
+  margin-top: 25px;
+}
+
+/* PARAGRAPHES */
+p {
+  margin-bottom: 1.2em;
+  font-size: 1.05em;
+}
+
+/* LIENS */
+a {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #003366;
+  text-decoration: underline;
+}
+
+/* BLOCS DE CODE */
+pre {
+  background-color: #e6f0fa;
+  border-left: 5px solid #005b96;
+  padding: 12px;
+  overflow-x: auto;
+  font-size: 0.95em;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+code {
+  background-color: #dbefff;
+  padding: 3px 6px;
+  font-family: "Fira Code", monospace;
+  font-size: 0.95em;
+  border-radius: 4px;
+}
+
+/* TABLEAUX */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  font-size: 1em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+th, td {
+  border: 1px solid #cce0f5;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #005b96;
+  color: white;
+}
+
+/* CITATIONS */
+blockquote {
+  border-left: 5px solid #007acc;
+  background-color: #f2f8fc;
+  padding: 10px 20px;
+  margin: 20px 0;
+  font-style: italic;
+  color: #444;
+}
+
+/* MENU GITBOOK */
+.book-summary {
+  background-color: #003366 !important;
+  font-size: 2em;
+}
+
+.book-summary ul li a {
+  color: white !important;
+}
+
+.book-summary ul li a:hover {
+  color: #cce6ff !important;
+  text-decoration: underline !important;
+}
+
+/* CONTENU PRINCIPAL */
+.book-body .page-inner {
+  padding: 25px;
+  background-color: white;
+  box-shadow: 0 0 4px rgba(0,0,0,0.04);
+}
+
+/* PIED DE PAGE */
+.book-footer {
+  text-align: center;
+  font-size: 0.85em;
+  color: #999;
+  padding: 15px;
+  border-top: 1px solid #ccc;
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
+}
+
+/* Animation douce */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

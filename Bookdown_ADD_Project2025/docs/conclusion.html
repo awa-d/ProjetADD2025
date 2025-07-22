@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>4 Conclusion | Projet-ADD1.knit</title>
+  <meta name="description" content="" />
+  <meta name="generator" content="bookdown 0.42 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="4 Conclusion | Projet-ADD1.knit" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="4 Conclusion | Projet-ADD1.knit" />
+  
+  
+  
+
+<meta name="author" content="Awa D" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="annexe-technique.html"/>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style/custom.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<h3>Projet AFC Cameroun</h3>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> .</a></li>
+<li class="chapter" data-level="2" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>2</b> Introduction</a></li>
+<li class="chapter" data-level="3" data-path="annexe-technique.html"><a href="annexe-technique.html"><i class="fa fa-check"></i><b>3</b> Annexe technique</a></li>
+<li class="chapter" data-level="4" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>4</b> Conclusion</a></li>
+<li class="divider"></li>
+<p><small> ENSAE/ISE1-2025</small></p>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="conclusion" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">4</span> Conclusion<a href="conclusion.html#conclusion" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>🎯 Permettre à un non-spécialiste de comprendre comment vous avez travaillé.</p>
+<p>Filtres appliqués : ne garder que les répondants qui comptent voter (Q98)</p>
+<p>Variables utilisées :</p>
+<p>Q46PT1 : problème prioritaire</p>
+<p>Q96 : niveau d’instruction</p>
+<p>Recodages effectués (simplification des doléances, regroupement des niveaux d’étude)</p>
+<p>Présentation simplifiée de l’Analyse Factorielle des Correspondances</p>
+<p>Tableau de contingence</p>
+<p>Extraction des axes</p>
+<p>Visualisation des modalités</p>
+<p>✍ Bonus : Un petit schéma ou capture de tableau aide à visualiser</p>
+<p>Méthode AFC — Ce qu’il faut retenir
+🔍 1. Définition et objectif
+⚙️ AFC = Analyse Factorielle des Correspondances</p>
+<p>S’applique à deux variables qualitatives croisées dans un tableau de contingence.</p>
+<p>Objectif : aller au-delà des statistiques descriptives bivariées, en analysant les liaisons entre les modalités.</p>
+<p>On cherche à visualiser les relations dans un plan réduit (souvent 2D), pour détecter des structures, similitudes ou oppositions entre catégories.</p>
+<p>📊 2. Fondements statistiques
+On travaille à partir des fréquences conditionnelles et du tableau des profils lignes et colonnes.</p>
+<p>L’AFC repose sur la distance du Khi², plus adaptée que la distance euclidienne aux tableaux de fréquences.</p>
+<p>🔸 Elle prend en compte les poids des modalités (ex. : une modalité peu fréquente n’aura pas le même impact).</p>
+<p>⚖️ Distances mesurées entre profils :</p>
+<p>Ressemblance entre deux modalités ligne i et i’ = comportement proche vis-à-vis des colonnes j.</p>
+<p>Modalités proches dans le nuage = profils conditionnels semblables.</p>
+<p>📌 3. Interprétation graphique
+📌 Deux types de nuages de points :</p>
+<p>Nuage principal (direct) : lignes et colonnes projetées ensemble.</p>
+<p>Nuage dual : visualisation des distances entre modalités lignes ou colonnes seulement.</p>
+<p>📉 L’interprétation se fait en comparant les projections sur les axes factoriels.</p>
+<p>⚠️ Attention : une modalité très visible (éloignée du centre) peut avoir une contribution trop forte… ce n’est pas toujours bon signe ! → Peut déséquilibrer l’analyse.</p>
+<p>⚠️ 4. Pièges à éviter
+❌ Confondre contribution et qualité de la modalité :</p>
+<p>Une modalité peut contribuer fortement à l’axe, mais ne pas être pertinente, juste car elle est très rare.</p>
+<p>🎯 On préfère une modalité avec :</p>
+<p>Une contribution élevée par rapport à la moyenne,</p>
+<p>Et une bonne qualité de représentation (cos² élevé).</p>
+<p>⚠️ Modalités rares :</p>
+<p>Peu fiables → doivent parfois être mises en modalités supplémentaires pour éviter les déformations du nuage.</p>
+<p>🎲 Inférer le tableau de contingence pondéré si l’on veut tenir compte des poids d’échantillonnage (comme avec Afrobaromètre).</p>
+<p>🧮 5. Indicateurs utiles
+🔹 Chi² global : test d’indépendance entre les deux variables.</p>
+<p>🔹 Valeurs propres (inertie) : donnent l’importance de chaque axe.</p>
+<p>🔹 V de Cramer : indicateur global de liaison entre les deux variables.</p>
+<p>🔹 Cos² : qualité de la représentation d’une modalité sur un axe.</p>
+<p>🔹 Contributions (%) : poids d’une modalité dans la construction de l’axe.</p>
+<p>🧠 6. Méthodologie en résumé</p>
+<p>→ Construire le tableau de contingence
+→ Centrer/réduire les données (fréquences attendues)
+→ Calculer distances Khi²
+→ Décomposer l’inertie → valeurs propres → axes factoriels
+→ Projeter modalités lignes et colonnes
+→ Interpréter les plans factoriels (similitudes, oppositions)</p>
+<p>📝 Bonus – Cas spécifique Afrobaromètre
+Les données sont pondérées : il est préférable de construire un tableau pondéré dès le départ.</p>
+<p>Certaines modalités peu présentes dans l’échantillon (par exemple peu d’individus très instruits ou peu instruits) peuvent avoir un effet disproportionné.</p>
+<p>➕ Idée : mettre certaines modalités en « supplémentaire » pour qu’elles n’influencent pas la construction des axes, mais soient projetées pour observation.</p>
+<p>Limites : enquête auto-déclarée, effectifs faibles sur certaines modalités, méthode descriptive</p>
+<p>Ouverture :</p>
+<p>Comparer avec d’autres pays Afrobarometer ?</p>
+<p>Ajouter la région ou le genre comme 3e variable ?</p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="annexe-technique.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": null,
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["Projet ADD1.pdf", "Projet ADD1.word"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
